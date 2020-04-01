@@ -2,7 +2,7 @@
 
 ## What is this notebook for?
 
-This jupyter notebook serves as a template for fast analysis and plotting of aggregation kinetic data. The aim is to provide a tool that can be used to analysise kinetic data files obtained from FLUOstar Omega plate readers (BMG Labtech, Offenburg, Germany). This will provide faster and more efficient data handling and produce puclication ready quality figures.
+This jupyter notebook serves as a template for fast analysis and plotting of aggregation kinetic data. The aim is to provide a tool that can be used to analysise kinetic data files obtained from FLUOstar Omega plate readers (BMG Labtech, Offenburg, Germany). This will provide faster and more efficient data handling and produce publication ready quality figures.
 
 *This document will presumably serve as a supplementary document to a future paper (experimental details will not be included for those reasons)*
 
