@@ -36,7 +36,7 @@ In order to being able to use this notebook you will need to do the following st
 6. Run Jupyter Notebook. Go into terminal, place yourself in directory where you see the folder that you downloaded from github. Write the following into the terminal:
     ```.py
      jupyter notebook
-        ```
+     ```
 
 
 
