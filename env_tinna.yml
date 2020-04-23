@@ -1,0 +1,13 @@
+name: tinna_environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pip
+  - scipy
+  - seaborn
+
