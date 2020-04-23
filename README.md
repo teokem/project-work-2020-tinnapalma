@@ -21,23 +21,32 @@ In order to being able to use this notebook you will need to do the following st
 
 4. Create environment:
 
-    - There is a file in the folder called tinna_environment.yml. It contains the required packages.
+    - There is a file in the folder called environment.yml. It contains the required packages.
     - create an environment by writing this command in the terminal:
     
     ```.py
-    conda env create -f tinna_environment.yml
+    conda env create -f env_tinna.yml
     ```
 
 5. Activate the environment by the following command:
     ```.py
-    source activate project_env
+    conda activate tinna_environment
     ```
 
-6. Run Jupyter Notebook. Go into terminal, place yourself in directory where you see the folder that you downloaded from github. Write the following into the terminal:
+6. To make the environment appear in the kernel (within the notebook), you have to do the following in the terminal: 
+    ```.py
+    pip install --user ipykernel
+    ```
+    followed by:
+    ```.py
+    python -m ipykernel install --user --name=tinna_environment
+    ```
+
+7. Run Jupyter Notebook. Go into terminal, place yourself in directory where you see the folder that you downloaded from github. Write the following into the terminal:
     ```.py
      jupyter notebook
-     ```
-
+        ```
+8. Go into the notebook, in the bar on the top, select kernel and then change to kernel called "tinna_environment"
 
 
 For further questions, you are welcome to send to tinna.palmadottir@biochemistry.lu.se
@@ -48,7 +57,7 @@ For further questions, you are welcome to send to tinna.palmadottir@biochemistry
 ```
 
 
-## Useful feature of this notebook
+## Useful features of this notebook
 I found the library ["Pandas"](https://pandas.pydata.org) very useful tool for data analysis. I think it makes it possible to analysis and work with big and/or complicated data files in a convenient and well understandable way. Using Pandas to process the datafile in this notebook saves the user a lot of time. Students and researchers within the group generally analyse the files by hand in exel, which take much longer time. 
     In this notebook, the selected data is also exported as a processed text file, that can then be imported to other graphical programs for data visualisation (if preferred). However, I do recommend to use matplotlib, that can be used within the notebook to plot and design the plot according to your needs. I think matplotlib is really useful tool as well. Matplotlib has a [gallery](https://matplotlib.org/3.1.1/gallery/index.html) of examples of plots that can be created with Matplotlib. I recommend visiting the gallery. I found it very useful and inspiring, it gives ideas of good ways to plot and visualise your data.
     
