@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/246544523.svg)](https://zenodo.org/badge/latestdoi/246544523)
+
 # Analysis of aggregation kinetic data
 
 ## What is this notebook for?
